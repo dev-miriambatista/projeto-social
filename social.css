@@ -65,7 +65,7 @@ section#redes-sociais img:hover{
 }
 section#redes-sociais{
     position: absolute;
-    top:560px; /* Posiciona no topo */
+    top:550px; /* Posiciona no topo */
     left: 50%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Centraliza horizontalmente */
     display: flex;
