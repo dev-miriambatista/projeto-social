@@ -29,7 +29,7 @@ main{
 }
 section#telefone{
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
     height: 627px;
@@ -65,7 +65,7 @@ section#redes-sociais img:hover{
 }
 section#redes-sociais{
     position: absolute;
-    top: 0; /* Posiciona no topo */
+    top:560px; /* Posiciona no topo */
     left: 50%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Centraliza horizontalmente */
     display: flex;
