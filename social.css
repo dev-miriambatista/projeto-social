@@ -20,6 +20,7 @@ body{
 }
 main{
     height:100%;
+    width: 100vw;
     position:relative;
 }
 section#telefone{
@@ -61,7 +62,7 @@ section#redes-sociais{
     right: 20px;
     transform: translatey(-50%);
     margin-top: 100px;
-    text-align: right;
+    text-align: top;
     display: flex; /* Use flexbox para alinhar os itens */
     flex-direction: column; /* Alinhe os itens em uma coluna */
     align-items: flex-end;
