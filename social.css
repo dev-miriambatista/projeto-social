@@ -19,19 +19,12 @@ body{
     background-attachment: fixed;
 }
 main{
-    height:100vh;
-    width: 80vw;
     position:relative;
-}
-
-#full{
-    height: 1000px;
-    width:600px;
 }
 section#telefone{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 40%;
     transform: translate(-50%,-50%);
     height: 627px;
     width:311px;
@@ -58,16 +51,16 @@ section#redes-sociais img{
 section#redes-sociais img:hover{
     border: 0.5px solid #00000081;
     transform: translate(-3px,-3px);
-    box-shadow: 10px 10px 10px #ece8e881;
-    transition: transform 1s, border 1.2s;
+    box-shadow: 3px 3px 5px #5a565681;
+    transition: transform 1s, border 0.5s;
 }
 section#redes-sociais{
     position: absolute;
     top: 35%;
-    right: -70px;
+    right: 310px;
     transform: translatey(-50%);
-    margin-top: 100px;
-    text-align: top;
+    margin-top: 80px;
+    text-align: right;
     display: flex; /* Use flexbox para alinhar os itens */
     flex-direction: column; /* Alinhe os itens em uma coluna */
     align-items: flex-end;
