@@ -57,9 +57,12 @@ section#redes-sociais img:hover{
 }
 section#redes-sociais{
     position: absolute;
-    display: inline-block;
+    top: 35%;
+    right: 10px;
+    transform: translatey(-50%);
     margin-top: 100px;
-    margin-right: 100px;
     text-align: right;
-    margin-left: 1000px;
+    display: flex; /* Use flexbox para alinhar os itens */
+    flex-direction: column; /* Alinhe os itens em uma coluna */
+    align-items: flex-end;
 }
