@@ -52,12 +52,11 @@ section#redes-sociais img{
 section#redes-sociais img:hover{
     border: 0.5px solid #00000081;
     transform: translate(-3px,-3px);
-    box-shadow: 10px 10px 10px #1f191981;
+    box-shadow: 10px 10px 10px #ece8e881;
     transition: transform 1s, border 1.2s;
 }
 section#redes-sociais{
     position: absolute;
-    padding:20%;
     top: 35%;
     right: 20px;
     transform: translatey(-50%);
