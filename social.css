@@ -35,8 +35,6 @@ section#telefone{
     height: 627px;
     width:311px;
     background: url("imagens/frame-iphone3.png") no-repeat bottom center;
-    
-   
 } 
 iframe#tela{
     position: relative;
@@ -58,7 +56,6 @@ section#redes-sociais img{
 }
 section#redes-sociais img:hover{
     border: 1px solid rgb(56, 44, 44);
-    
     transform: translate(-3px,-3px);
     box-shadow: 3px 3px 5px #00000081;
     transition: transform .2s, border 0.3s;
